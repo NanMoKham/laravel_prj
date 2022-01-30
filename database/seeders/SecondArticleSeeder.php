@@ -5,16 +5,16 @@ namespace Database\Seeders;
 use Illuminate\Database\Seeder;
 use App\Models\SecondArticle;
 
-class DatabaseSeeder extends Seeder
+class SecondArticleSeeder extends Seeder
 {
     /**
-     * Seed the application's database.
+     * Run the database seeds.
      *
      * @return void
      */
     public function run()
     {
-        // \App\Models\User::factory(10)->create();
-        SecondArticle::factory()->count(20)->create();
+        // create data 20 lines
+        // SecondArticle::factory()->count(20)->create();
     }
 }
